@@ -1,5 +1,5 @@
 # MatsuriPlugin
-##### A plugin for the HOLOLIVE RESISTANCE Minecraft server.
+A plugin for the HOLOLIVE RESISTANCE Minecraft server.
 
 ## Features
 * Lookup CoreProtect data, ... calculate manufacturer and builder...
