@@ -1,0 +1,8 @@
+name: MatsuriPlugin
+main: io.github.hololive_resistance.matsuriplugin.MatsuriPlugin
+version: 1.0
+api-version: 1.15
+commands:
+    querylookup:
+        description: Lookup using the Coreprotect API
+        usage: /querylookup
