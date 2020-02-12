@@ -3,3 +3,6 @@ main: com.hololiveresistance.matsuriPlugin.MatsuriPlugin
 version: 1.0
 api-version: 1.15
 commands:
+    querylookup:
+        description: Lookup using the Coreprotect API
+        usage: /querylookup
