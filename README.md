@@ -7,7 +7,7 @@ A plugin for the HOLOLIVE RESISTANCE Minecraft server.
 * ...
 
 ## Documentation
-Docs here: xxx.xxx.io/xxx
+Docs here: https://aileron-1.github.io/MatsuriPlugin/
 
 ## Server requirements
 * CoreProtect
