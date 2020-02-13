@@ -13,10 +13,13 @@ Polished Stones (Andesite, Granite, Diorite) = 3
 Obsidian = 5
 Coal = 3
 Iron = 4
+Gold = 5
 Redstone = 3
 Diamond = 7
 Emerald = 4
 Glowstone = 2
+Gunpowder = 3
+Coral = 2
 =======================================================
 
 ====================Stone(Cutouts)=====================
@@ -41,26 +44,51 @@ Black = 4
 Concrete = 3
 Concrete Powder = 5
 Dyed Concrete = 6
+Terracotta = 3
 ================================================
 
 ===================Wool=======================
 Dyed Wool = 2
+Carpet = 3
 ==============================================
 
 ================Grown Materials=================
 Nether Wart = 2
-
+Honey Block = 3
+================================================
 
 =================Wood(Crafted)==================
 Wood Planks = 2
-
-
+Lanterns = 2
+Fences = 2
+Ladder = 2
+Sea Lanterns = 4
 ===============================================
 
 ================Transportation==================
 Blue Ice = 3
+Rails = 3
+Minecart = 2
+================================================
 
+================End Items===============
+End Rods = 4
+Purpur Block = 3
+========================================
 
+================Construction===============
+Scaffolding = 2
+Glass = 2
+Slime Block = 3
+Magma Block = 4
+Prismarine Bricks = 4
+Prismarine = 3
+Dark Prismarine = 4
+===========================================
+
+================Misc==============
+Food = 2
+==================================
 
 
 
