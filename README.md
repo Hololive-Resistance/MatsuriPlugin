@@ -9,7 +9,7 @@ Docs and README all currently placeholder.
 * ...
 
 ## Documentation
-Docs here: https://aileron-1.github.io/MatsuriPlugin/
+Docs here: https://hololive-resistance.github.io/MatsuriPlugin/
 
 ## Server requirements
 * CoreProtect
