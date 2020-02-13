@@ -1,0 +1,69 @@
+Additional Notes:
+
+- Materials are grouped into their block types
+- Points to be increased based on the rarity of the block
+- Format of each line: [Block] = [Point Value]
+- Depending on the blocks, values can be cumulative(Can add or multiply depending on block rarity)
+- Anything not on this list will have a default point value of 1
+
+==============Raw Materials(Initial Form)=============
+Stone = 3
+Smooth Stone = 4
+Polished Stones (Andesite, Granite, Diorite) = 3
+Obsidian = 5
+Coal = 3
+Iron = 4
+Redstone = 3
+Diamond = 7
+Emerald = 4
+Glowstone = 2
+=======================================================
+
+====================Stone(Cutouts)=====================
+Stairs = 2
+Slab = 2
+Bricks = 2
+Brick Slab = 2
+Brick Stairs = 2
+Brick Wall = 2
+Chiseled Stone Brick = 2
+Smooth Stone Slab = 3
+Netherbrick = 4
+Red Netherbrick = 6
+=======================================================
+
+=====================Dyes========================
+Any colour on rainbow = 3
+Black = 4
+================================================
+
+===================Concrete=====================
+Concrete = 3
+Concrete Powder = 5
+Dyed Concrete = 6
+================================================
+
+===================Wool=======================
+Dyed Wool = 2
+==============================================
+
+================Grown Materials=================
+Nether Wart = 2
+
+
+=================Wood(Crafted)==================
+Wood Planks = 2
+
+
+===============================================
+
+================Transportation==================
+Blue Ice = 3
+
+
+
+
+
+
+
+
