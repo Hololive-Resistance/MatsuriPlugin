@@ -9,7 +9,7 @@ import org.bukkit.command.Command
 import org.bukkit.command.CommandExecutor
 import org.bukkit.command.CommandSender
 
-class CommandQuery : CommandExecutor {
+object CommandQuery : CommandExecutor {
     var api = CoreProtectAPI()
     // On command being run...
     override fun onCommand(sender: CommandSender, cmd: Command, label: String, args: Array<String>): Boolean {

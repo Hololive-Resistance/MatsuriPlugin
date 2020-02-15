@@ -3,11 +3,13 @@
  */
 package io.github.hololive_resistance.matsuriplugin
 
+import io.github.hololive_resistance.matsuriplugin.gacha.RNG
 import net.coreprotect.CoreProtect
 import net.coreprotect.CoreProtectAPI
 import org.bukkit.plugin.java.JavaPlugin
+import kotlin.random.Random
 
-class MatsuriPlugin : JavaPlugin() {
+object MatsuriPlugin : JavaPlugin() {
     val rDatabase: CoreDatabase? = null
     // Check that the API is enabled
 
@@ -50,14 +52,16 @@ class MatsuriPlugin : JavaPlugin() {
         if (api != null) { // Ensure we have access to the API
             api.testAPI() // Will print out "[CoreProtect] API Test Successful." in the console.
             // Give this command class the CoreProtect API
-            val querylookup = CommandQuery()
-            querylookup.api = api
-            getCommand("querylookup")!!.setExecutor(querylookup)
+            CommandQuery.api = api
+            getCommand("querylookup")!!.setExecutor(CommandQuery)
         }
+        Config.load()
     }
 
     //
     // OnDisable. Fired when plugin is disabled
     //
-    override fun onDisable() {}
+    override fun onDisable() {
+        Config.unload()
+    }
 }

@@ -1,0 +1,21 @@
+# Gacha roll tables
+gacha_tables:
+  - name: hl_trading_cards
+    groups:
+      - percent: 6
+        rarity: legendary
+        items:
+          - matsuri_pog
+      - percent: 12
+        rarity: rare
+        items:
+          - test444
+      - percent: 28
+        rarity: uncommon
+        items:
+          - test33
+      - percent: -1 # default
+        rarity: common
+        items:
+          - test1
+          - test2
