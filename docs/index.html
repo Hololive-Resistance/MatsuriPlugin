@@ -2,11 +2,110 @@
 <html>
     <head>
         <meta id="viewport" name="viewport" content ="width=device-width"/>
-        <link href="./css/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cantarell|Roboto|Work+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
-
     <body>
-        <h1>MatsuriPlugin docs</h1>
+        <div class="wrapper">
+            <header class="header">
+            </header>
+            <div class="main">
+                <h1>MatsuriPlugin docs</h1>
+                <p>MatsuriPlugin is a Minecraft plugin created to assist in running Hololive Resistance's Holomatsuri festival.</p>
+                
+                <div class="table-of-contents section">
+                    <h2>Table of Contents</h2>
+                    <div class="contents-block border">
+                        <ol>
+                            <li><a href="#calc">Calculator</a></li>
+                            <ol>
+                                <li><a href="#class-diagram-calc">Class Diagram</a></li>
+                                <li><a href="#class-list-calc">Class List</a></li>
+                                <li><a href="#commands-calc">Commands</a></li>
+                            </ol>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="feature section" id="calculator">
+                    <h2 id="calc">Calculator</h2>
+                    <p>
+                        The calculator feature compiles data from the CoreProtect database to provide a much simpler way to track 
+                        Holomatsuri progress using it's own points system. It provides commands to show player points, 
+                        leaderboards and other supporting output features which would otherwise be tedious to do by hand.
+                    </p>
+                    <p>
+                        The calculator may require its own database to be determined by whether querying the CO database frequently is safe.
+                    </p>
+                    
+                    <div class="classes">
+                        <h3 id="class-diagram-calc">Class Diagram</h3>
+                        <img src="./img/MatsuriClasses.png">
+
+                        <h3 id="class-list-calc">Class List</h3>
+                        <table class="table table-striped class-list">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Class name</th>
+                                    <th scope="col">Methods</th>
+                                    <th scope="col">Function</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Calculator</td>
+                                    <td>...</td>
+                                    <td>Main class for the calulator feature. ...</td>
+                                </tr>
+                                <tr>
+                                    <td>SQLite</td>
+                                    <td>...</td>
+                                    <td>Does this...</td>
+                                </tr>
+                                <tr>
+                                    <td>Database</td>
+                                    <td>...</td>
+                                    <td>Does this...</td>
+                                </tr>
+                                <tr>
+                                    <td>CommandXXX</td>
+                                    <td>...</td>
+                                    <td>Queries... </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="">
+                        <h3 id="commands-calc">Commands</h3>
+                        <table class="table table-sm command-list">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Command</th>
+                                    <th scope="col">Parameters</th>
+                                    <th scope="col">Function</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>lorem</td>
+                                    <td>...</td>
+                                    <td>ipsum</td>
+                                </tr>
+                                <tr>
+                                    <td>lorem</td>
+                                    <td>...</td>
+                                    <td>ipsum</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-1 aside"></div>
+            <div class="aside-2 aside"></div>
+            <footer class="footer text-center text-muted">
+                Hololive Resistance 2020.
+            </footer>
+        </div>
     </body>
 </html>
